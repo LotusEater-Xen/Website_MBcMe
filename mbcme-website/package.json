@@ -16,6 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build": "tailwindcss -i src/styles.css -o dist/styles.css",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
