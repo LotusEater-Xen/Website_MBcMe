@@ -1,3 +1,6 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+.Slider{
+mask-image:linear-gradient(to left, transparent 0%, black 20%, black 80%, transparent 95%);}
+
