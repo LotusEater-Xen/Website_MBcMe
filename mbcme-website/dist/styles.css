@@ -1042,8 +1042,8 @@ video {
   background-color: var(--color-base-100);
 }
 
-.bg-green-500\/10 {
-  background-color: rgb(34 197 94 / 0.1);
+.bg-base-200 {
+  background-color: var(--color-base-200);
 }
 
 .bg-white {
@@ -1140,6 +1140,10 @@ video {
   line-height: 1.25;
 }
 
+.text-base-content {
+  color: var(--color-base-content);
+}
+
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity, 1));
@@ -1188,5 +1192,4 @@ video {
     height: 24rem;
   }
 }
-
 

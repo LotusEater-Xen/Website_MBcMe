@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import testimage from'../quellen/testimage.jpg';
 
 //Module für die Seite
+import Navbar from '../Module/navbar';
 import Diashow from '../Module/Diashow';
 import MehrErfahren from '../Module/MehrErfahren';
 import Kurzübersicht from '../Module/Kurzübersicht';
@@ -18,17 +19,12 @@ const HomePage = () => {
   };
 
   return (
-    <div data-theme="dark" className='Seite  bg-base-100'>
-    <div className='Kurzübersicht'>
+    <body data-theme="light" className='Seite  bg-base-100'>
+      <Navbar />
       <Kurzübersicht />
-    </div>
-    <div className='Links'>
       <MehrErfahren />
-    </div>
-    <div className='Scroller'>
     <Diashow />
-    </div>
-    </div>
+    </body>
   );
 };
 

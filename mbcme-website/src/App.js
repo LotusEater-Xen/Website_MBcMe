@@ -1,5 +1,3 @@
-// src/App.js
-//import React, {useEffect, useRef} from 'react';
 import { 
   BrowserRouter as Router, 
   Route, 
@@ -8,12 +6,11 @@ import {
 import Home from './Seiten/Home';
 import Karriere from './Seiten/Jobangebote';
 //import Contact from './Seiten/Kontakt';
-import './App.css';
 
 
 function App() {
   return (
-     <Router>
+     <Router  class="bg-base-100 text-base-content" data-theme="dark">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/career" element={<Karriere />} />
