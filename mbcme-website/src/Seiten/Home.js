@@ -18,7 +18,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className='Seite'>
+    <div data-theme="dark" className='Seite  bg-base-100'>
     <div className='Kurzübersicht'>
       <Kurzübersicht />
     </div>

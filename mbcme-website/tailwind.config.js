@@ -8,7 +8,7 @@ theme: {
   },
     plugins: [require('daisyui')],
     daisyui: {
-      themes: ['nord'],
+      themes: ["lofi","dark",],
     
     },
   }
