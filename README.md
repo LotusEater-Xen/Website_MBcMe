@@ -8,7 +8,7 @@ Step 5: npm start<br/>
 (server should be running)
 </div>
 
-<h3>general info</h3>
+<h3>general info:</h3>
 <div>
 Dependencies so far:<br/>
 -npm<br/>
