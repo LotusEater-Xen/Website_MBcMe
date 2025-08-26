@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 //the react-router-dom class is important for linking pages in react
 import { Link } from 'react-router-dom';
-import testimage from'../quellen/testimage.jpg';
+import testimage from'../sources/testimage.jpg';
 
 //Lukas Comment: Here I Imported the modules that I chose to put on the page
 import Navbar from '../Module/home/navbar';
