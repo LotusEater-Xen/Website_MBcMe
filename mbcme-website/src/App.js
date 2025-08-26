@@ -5,7 +5,10 @@ import {
 } from 'react-router-dom';
 import Home from './Seiten/Home';
 import Karriere from './Seiten/Jobangebote';
-//import Contact from './Seiten/Kontakt';
+
+//App.js is the parent of all pages in the "Seiten" directory
+//This is the component that gets rendered by index.js 
+
 
 
 function App() {

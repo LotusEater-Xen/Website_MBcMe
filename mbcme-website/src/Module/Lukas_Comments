@@ -1,0 +1,9 @@
+To comment on the folder Module:
+
+Module/modules is the folder where I store the react components that I am using. 
+So navbars, heroes etc.
+(most of these are ripped from the daisy ui extension)
+
+My idea is to create folders for the individual pages on which i use these components.
+This allows me to copy paste them and adjust them, without modifying the blueprint so 
+I can use it for other pages aswell

@@ -1,6 +1,6 @@
 
 
-const Kurzübersicht = () =>{
+const Overview = () =>{
     return(
 <div className="max-w-6xl mx-auto px-5 mt-16">
 
@@ -83,4 +83,4 @@ const Kurzübersicht = () =>{
 </div>
     );
 };
-export default Kurzübersicht;
+export default Overview;

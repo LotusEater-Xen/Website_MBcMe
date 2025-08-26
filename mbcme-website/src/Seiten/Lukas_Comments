@@ -1,0 +1,7 @@
+To comment on Seiten/Pages:
+
+Here is where I store the Pages meaning the ones that I have references to in the module app.js
+App.js contains the Router that allows navigation between the different pages.
+
+There is not much going on here exactly. I have not yet need to write special js scripts for a page,
+so most of the pages are just rendering components from the "Module" Directory.

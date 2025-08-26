@@ -1,9 +1,9 @@
-// src={testimage}omePage.js
 import React, { useState } from 'react';
+//the react-router-dom class is important for linking pages in react
 import { Link } from 'react-router-dom';
 import testimage from'../quellen/testimage.jpg';
 
-//Module für die Seite
+//Lukas Comment: Here I Imported the modules that I chose to put on the page
 import Navbar from '../Module/home/navbar';
 import Diashow from '../Module/home/diashow';
 import Hero from '../Module/home/hero';
@@ -12,14 +12,12 @@ import '../css/style.css'; // Import the CSS for this component
 
 
 const HomePage = () => {
-  //const [message, setMessage] = useState('Welcome to the HomePage!');
 
-  const handleClick = () => {
-    //setMessage('You clicked the button!');
-  };
-
+//Lukas Tip: You can change the theming, try swapping the data-theme for light/dark !
+//Lukas Workflow: Create a folder for each page, copy the modules that you need and adjust the blueprint. 
+//Lukas Result: Pages that are somewhat easy to maintain and not as cluttered :D
   return (
-    <body data-theme="cupcake" className='Seite  bg-base-100'>
+    <body data-theme="dark" className='Seite  bg-base-100'>
       <Navbar />
       <Hero />
       <Overview />
