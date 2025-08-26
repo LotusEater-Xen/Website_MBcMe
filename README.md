@@ -5,7 +5,7 @@ Step 2: extract<br/>
 Step 3: open shell and cd into folder "mbcme-website"<br/>
 Step 4: npm install<br/>
 Step 5: npm start<br/>
-(server should be running)
+(server should be running at localhost:3000)
 </div>
 
 <h3>general info:</h3>
