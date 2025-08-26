@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 import testimage from'../quellen/testimage.jpg';
 
 //Module für die Seite
-import Navbar from '../Module/navbar';
-import Diashow from '../Module/Diashow';
-import MehrErfahren from '../Module/MehrErfahren';
-import Kurzübersicht from '../Module/Kurzübersicht';
+import Navbar from '../Module/home/navbar';
+import Diashow from '../Module/home/diashow';
+import Hero from '../Module/home/hero';
+import Overview from '../Module/home/overview';
 import '../css/style.css'; // Import the CSS for this component
 
 
@@ -19,11 +19,11 @@ const HomePage = () => {
   };
 
   return (
-    <body data-theme="light" className='Seite  bg-base-100'>
+    <body data-theme="cupcake" className='Seite  bg-base-100'>
       <Navbar />
-      <Kurzübersicht />
-      <MehrErfahren />
-    <Diashow />
+      <Hero />
+      <Overview />
+      <Diashow />
     </body>
   );
 };

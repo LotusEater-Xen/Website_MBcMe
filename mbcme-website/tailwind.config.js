@@ -15,6 +15,7 @@ theme: {
       themes: [
       "light",
       "dark",
+      "cupcake",
       "lofi",
       "wireframe", ],
     

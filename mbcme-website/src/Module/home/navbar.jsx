@@ -1,5 +1,5 @@
-import '../css/style.css';
-import logo from '../quellen/logo.jpg';
+import '../../css/style.css';
+import logo from '../../quellen/logo.jpg';
 
 export default function Navbar() {
   return (
