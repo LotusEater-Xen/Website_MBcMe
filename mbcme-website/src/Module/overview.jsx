@@ -1,6 +1,6 @@
 
-
-const Overview = () =>{
+import '../css/style.css';
+export default function Overview(){
     return(
 <div className="max-w-6xl mx-auto px-5 mt-16">
 
@@ -11,7 +11,7 @@ const Overview = () =>{
     </div>
 
 
-    <div className="grid md:grid-cols-2 gap-10 mt-10">
+  <div className="grid md:grid-cols-2 gap-10 mt-10">  
 
 
         <div className="flex gap-4 items-start">
@@ -83,4 +83,3 @@ const Overview = () =>{
 </div>
     );
 };
-export default Overview;

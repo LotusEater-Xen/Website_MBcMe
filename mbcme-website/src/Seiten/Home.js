@@ -5,9 +5,10 @@ import testimage from'../sources/testimage.jpg';
 
 //Lukas Comment: Here I Imported the modules that I chose to put on the page
 import Navbar from '../Module/home/navbar';
-import Diashow from '../Module/home/diashow';
 import Hero from '../Module/home/hero';
 import Overview from '../Module/home/overview';
+import Diashow from '../Module/home/diashow';
+import Footer from '../Module/home/footer';
 import '../css/style.css'; // Import the CSS for this component
 
 
@@ -17,12 +18,13 @@ const HomePage = () => {
 //Lukas Workflow: Create a folder for each page, copy the modules that you need and adjust the blueprint. 
 //Lukas Result: Pages that are somewhat easy to maintain and not as cluttered :D
   return (
-    <body data-theme="dark" className='Seite  bg-base-100'>
+    <div data-theme="dark" className='Seite  bg-base-100'>
       <Navbar />
       <Hero />
       <Overview />
       <Diashow />
-    </body>
+      <Footer />
+    </div>
   );
 };
 

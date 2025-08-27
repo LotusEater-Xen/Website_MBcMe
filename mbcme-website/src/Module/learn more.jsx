@@ -1,6 +1,5 @@
-import { Link } from 'react-router-dom';
-
-const MehrErfahren = () =>{
+import '../css/style.css';
+export default function MehrErfahren(){
     return (
       <div className='max-w-6xl mx-auto px-5 mt-16'>
       <div className='grid md:grid-cols-3 gap-10 mt-10'>
@@ -52,4 +51,3 @@ const MehrErfahren = () =>{
       </div>
     );
 };
-export default MehrErfahren;

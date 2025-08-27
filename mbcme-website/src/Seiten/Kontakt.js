@@ -1,14 +1,14 @@
-// src/ContactPage.js
-import React from 'react';
+import Navbar from '../Module/contact/navbar';
 //import './ContactPage.css'; // You can create a separate CSS for ContactPage
 
-const ContactPage = () => {
+const Kontakt = () => {
   return (
-    <div className="contact-container">
-      <h1>Contact Us</h1>
-      <p>Feel free to reach out to us!</p>
+    <div className="Seite">
+      <Navbar/>
+     
+
     </div>
   );
 };
 
-export default ContactPage;
+export default Kontakt;
