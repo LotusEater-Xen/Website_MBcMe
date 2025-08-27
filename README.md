@@ -1,9 +1,20 @@
-Website built on react framework, no special features pretty much an asset dump working on making it look pretty :))
+<h3>to run the website:</h1>
+<div>
+Step 1: download<br/>
+Step 2: extract<br/>
+Step 3: open shell and cd into folder "mbcme-website"<br/>
+Step 4: npm install<br/>
+Step 5: npm start<br/>
+(server should be running at localhost:3000)
+</div>
 
-Dependencies so far:
--npm
--daisyui
--tailwindcss
--react(some extensions for react aswell)
+<h3>general info:</h3>
+<div>
+Dependencies so far:<br/>
+-npm<br/>
+-daisyui<br/>
+-tailwindcss<br/>
+-react(some extensions for react aswell)<br/>
 
 (Some code might be comitted with german comment so some comitts might be hard to understand)
+</div>
