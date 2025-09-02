@@ -7,9 +7,11 @@ import Navbar from '../Module/career/navbar';
 
 const Karriere = () => {
   return (
-    <div className="Seite">
+    <div>
+    <div className="h-screen">
       <Navbar/>
       <FAQ/>
+      </div>
       <Footer/>
 
     </div>

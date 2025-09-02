@@ -18,11 +18,14 @@ const HomePage = () => {
 //Lukas Workflow: Create a folder for each page, copy the modules that you need and adjust the blueprint. 
 //Lukas Result: Pages that are somewhat easy to maintain and not as cluttered :D
   return (
-    <div data-theme="dark" className='Seite  bg-base-100'>
+    <div data-theme="light" className='Seite  bg-base-100'>
+      
       <Navbar />
-      <Hero />
-      <Overview />
       <Diashow />
+      
+      <Overview />
+    
+     
       <Footer />
     </div>
   );
